@@ -12,7 +12,7 @@ import os
 
 
 
-bot = telebot.TeleBot('5873982989:AAHQopiGJ17LQJ-GDxSu6pbA9whLaVBhCAA')
+bot = telebot.TeleBot('token')
 user_dict = {}
 count_family_stop = {}
 count_family = {}
