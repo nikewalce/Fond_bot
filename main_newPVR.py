@@ -52,7 +52,7 @@ def start(message):
 def help(message):
     try:
         if message.text == '/help':
-            bot.send_message(message.chat.id, 'По всем вопросам: https://t.me/ovoronzova')
+            bot.send_message(message.chat.id, 'По всем вопросам: https://t.me/')
         else:
             bot.send_message(message.from_user.id, 'Напишите /start')
     except Exception as e:
@@ -608,7 +608,7 @@ def files(service, file_name,chat_id):
         #results = service.files().list(fields="nextPageToken, files(id, name, mimeType, parents, createdTime)", q="name contains 'testphoto'").execute()
 
         #id папки куда загружать
-        folder_id = '1kXPK5oDHWxWI5d8-vYv05Z3vGW5OKJaO'
+        folder_id = '№№№'
 
         #название файла, с которым загрузится в папку
         name = file_name
